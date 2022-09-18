@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
+
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    background-color: #F0EFE9;
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: scroll;
+    padding-top: 10px;
+}
+
+li {
+    list-style-type:none;
+    text-align: left;
+    margin-left: 27px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+input {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border: 1px solid #81E9BB;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+#todo-submit {
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    width: 35px;
+    height: 35px;
+    background-color: #81E9BB;
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.checklist {
+    font-size: medium;
+    align-content: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(239, 237, 237);
+    border-radius: 100%;
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    color: rgb(239, 237, 237);
+}
+
+.checkActive {
+    background-color: #81E9BB;
+}
+
+.checkActive2 {
+    color: rgb(214, 212, 212);
+}
+
+.date h2 {
+    float: left;
+    font-size: xx-large;
+    position: absolute;
+    left: 40px;
+}
+
+.M {
+    font-size:x-small;
+    font-weight: bold;
+    position: absolute;
+    left: 72px;
+    top: 35px;
+}
+
+.Y {
+    font-size:x-small;
+    font-weight: bold;
+    position: absolute;
+    left: 72px;
+    top: 48px;
+}
+
+.day {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 40px;
+    top: 21px;
+}
